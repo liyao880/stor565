@@ -3,13 +3,15 @@ title: '**STOR 565: Machine Learning**'
 geometry: margin=2
 output:
   prettydoc::html_pretty:
-    theme: architect
+    theme: tactile
   html_document:
     toc: yes
     df_print: paged
   pdf_document:
     toc: yes
 ---
+
+
 
 <style type="text/css">
 
@@ -18,7 +20,7 @@ color: #13294B;
 }
 
 #TOC {
-  color: #4B9CD3;
+  color: #519D78;
 }
 
 .list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
@@ -62,62 +64,62 @@ background-color: #13294B;
 
 # **About the Course**
 
-See the **[syllabus](Syllabi/566_Syllabus.pdf)** for details. Deep neural networks (DNNs) have been widely used for tackling numerous machine learning problems that were once believed to be challenging. With their remarkable ability of fitting training data, DNNs have achieved revolutionary successes in many fields such as computer vision, natural language progressing, and robotics. This is an introduction course to deep learning. Topics covered by this course include but are not limited to:
+See the **[syllabus](Syllabi/565_Syllabus.pdf)** for details. Machine learning has become one of the most exciting research areas in recent years. In this **Python-based** course, we will explore fundamental algorithms, delve into supervised and unsupervised learning methods, and examine practical applications. Along the way, you’ll build hands-on projects, develop a deep understanding of model training and evaluation, and learn how to handle real-world data challenges. Topics covered by this course include but are not limited to:
 
 1. Machine Learning Overview
-2. Optimization
-3. MLP, CNN, RNN, GNN
-4. Generative models
+2. Linear Models (Linear Regression; Logistic Regression; SVM)
+3. Non-linear Models (Tree-based Methods; Kernel SVM; Neural Networks)
+4. Clustering Methods
 5. Advanced topics
 
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
-- Teaching Assistant: **[Kyung Rok Kim](https://stor.unc.edu/people/graduate-students/)**
+- Teaching Assistant: **[Shaleni Kovach](https://stor.unc.edu/people/graduate-students/)**
 
-- Grader: **Chengze Xie**
+- Grader: TBA
     
-- Class: TTH 3:30PM-4:45PM, Hanes 120
+- Class: TTH 9:30 - 10:45AM, Gardner 105
     
 - Office Hours:
-    - Instructor Office Hours: W 4:00PM-5:00PM, Hanes 334
-    - TA Office Hours: M 10:00AM-12:00PM, [Zoom]()
+    - Instructor Office Hours: W 2:00 - 3:00PM, Hanes 334
+    - TA Office Hours: TBA, TBA
 
 
 # **Course Material**
 
 | Date | Lecture | Slides | Tutorial|
 |------|-----------------------|-------:|----------:|
-|Aug. 20| Welcome || |
-|Aug. 22| Overview of Machine Learning || |
-|Aug. 27| Linear Regression and Classification || |
-|Aug. 29| Optimization || |
-|Sep. 03| Well-Being Day || |
-|Sep. 05| Kernel Methods || |
-|Sep. 10| Neural Networks || |
-|Sep. 12| Convolutional Neural Networks I || |
-|Sep. 17| Convolutional Neural Networks II || |
-|Sep. 19|Convolutional Neural Networks III || |
-|Sep. 24| Recurrent Neural Networks || |
-|Sep. 26| GRU and LSTM || |
-|Oct. 01| Project Proposal Discussion || |
-|Oct. 03| Project Proposal Discussion || |
-|Oct. 08| NLP Pre-training || |
-|Oct. 10| Generative Models || |
-|Oct. 15| Online Tutorial || |
-|Oct. 17| Fall Break || |
-|Oct. 22| Adversarial Attack|| |
-|Oct. 24| Networks Opinions || |
-|Oct. 29| Adversarial Defense || |
-|Oct. 31| Transformer || |
-|Nov. 05| Vision Transformer || |
-|Nov. 07| Federated Learning || |
-|Nov. 12| Poisoning Attack || |
-|Nov. 14| Poisoning Defense || |
-|Nov. 19| Large Language Models || |
-|Nov. 21| Final Project Work Day || |
-|Nov. 26| Final Presentation || |
-|Nov. 28| Thanksgiving || |
-|Dec. 03| Final Presentation || |
+|Jan. 09| Welcome || |
+|Jan. 14| Overview || |
+|Jan. 16| Review || |
+|Jan. 21| Linear Regression  || |
+|Jan. 23| Linear Regression Extension   || |
+|Jan. 28| Logistic Regression || |
+|Jan. 30| Model Assessment and Selection || |
+|Feb. 04| LDA, QDA and KNN || |
+|Feb. 06| Support Vector Machines || |
+|Feb. 11| Kernel SVM || |
+|Feb. 13| Principal Component Analysis || |
+|Feb. 18| Project Proposal Discussion || |
+|Feb. 20| Project Proposal Discussion || |
+|Feb. 25| Clustering Methods || |
+|Feb. 27| Tree-based Methods || |
+|Mar. 04| Matrix Factorization I || |
+|Mar. 06| Matrix Factorization II || |
+|Mar. 11| Spring Break || |
+|Mar. 13| Spring Break || |
+|Mar. 18| Neural Networks || |
+|Mar. 20| Neural Networks for CV || |
+|Mar. 25| Neural Networks for NLP || |
+|Mar. 27| Generative Models || |
+|Apr. 01| Reinforcement Learning || |
+|Apr. 03| Interpretable ML || |
+|Apr. 08| Fairness || |
+|Apr. 10| Guest Lecture || |
+|Apr. 15| Final Presentation || |
+|Apr. 17| Well-being Day || |
+|Apr. 22| Final Presentation || |
+|Apr. 24| Final Presentation || |
 
 
 # **Homework Tracker**
@@ -126,11 +128,11 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 
 | Date assigned | Instructions | Due Date (Time) |
 |----------|:--------:|:-------------:|
-| Aug. 29  | [HW1]()([.ipynb]())  |  Sep. 15 (11:59 PM) |
-| Sep. 12  | [HW2]()([.ipynb]()) |  Oct. 02 (11:59 PM) |
-| Oct. 01  | [HW3]()([.ipynb]())  |  Oct. 13 (11:59 PM) |
-| Oct. 13  | [HW4]()([.ipynb]())  |  Oct. 30 (11:59 PM) |
-| Oct. 29  | [HW5]()([.ipynb]()) |  Nov. 10 (11:59 PM) |
+|   | [HW1]()([.ipynb]())  |   (11:59 PM) |
+|   | [HW2]()([.ipynb]()) |   (11:59 PM) |
+|  | [HW3]()([.ipynb]())  |  (11:59 PM) |
+|   | [HW4]()([.ipynb]())  |   (11:59 PM) |
+|   | [HW5]()([.ipynb]()) |  (11:59 PM) |
 |          |        |           |
 
 # **Final Project Details**
@@ -144,7 +146,7 @@ This course includes a final project in lieu of a final exam. Projects will be c
 
 ## Group List
 
-Please form the final project group before **August 30th**, and sign up using the shared **[spreadsheet]()**. Please don't modify the information of other groups.
+Please form the final project group before **Jan 22nd**, and sign up using the shared **[spreadsheet]()**. Please don't modify the information of other groups.
 
 ## Four Parts Including Point Values
 
@@ -165,11 +167,10 @@ I will meet with each group to discuss the final project topic. Project topics c
 
 See latex template at [link](https://drive.google.com/file/d/16uQ-fbVysshhh13xvnpNy5GYPAMcplDK/view?usp=sharing).
 
-**P2: Project Presentation** *(30 Points):* All groups will present their final projects during the last week or two weeks of classes. Every group member is expected to join the presentation. The length of the presentation depends on the number of groups (10–20min) and will be announced later.
+**P2: Project Presentation** *(30 Points):* All groups will present their final projects during the last three lectures. Every group member is expected to join the presentation. The length of the presentation depends on the number of groups (10–20min) and will be announced later.
 
-You can find the presentation slides of all the groups at [here](https://drive.google.com/drive/folders/1ExvGJwXaQfOHYrbFjsU79BnPKvq5rUJm?usp=sharing).
 
-**P3: Project Paper** *(50 Points):* Each team must submit a written project report. It is recommended to include a discussion of how your research work can be further extended. It is required to use the [NeurIPS Latex style files](https://neurips.cc/Conferences/2022/PaperInformation/StyleFiles) and submit the report in PDF format. The report should be less than 8 pages without references (no minimum requirement).
+**P3: Project Paper** *(50 Points):* Each team must submit a written project report. It is recommended to include a discussion of how your research work can be further extended. It is required to use the [NeurIPS Latex style files](https://media.neurips.cc/Conferences/NeurIPS2024/Styles.zip) and submit the report in PDF format. The report should be less than 8 pages without references (no minimum requirement).
 
 **P4: Peer Score** *(10 Points):* Ten points of the final project is based on an average score measuring overall contribution as seen by you and the other members of your group. Each group member should score every person in their group on a continuous scale from 0 (Bad) to 10 (Good). Before the due date of the final paper, every member is required to submit the group scoring through the google survey link below. Your name and this information will remain private between me and you. If you fail to submit this group scoring before the deadline, 2 points penalty will be applied and I will give the other members a score of 10.
 
@@ -180,12 +181,12 @@ You can find the presentation slides of all the groups at [here](https://drive.g
 
 | Part | Description |Method (Location) of Submission| Due Date (Time) |
 |------|-------------|-------------|---------------------:|
-| P1  | Project Proposal | Canvas | Sep. 29 (11:59PM)|
-|   | Proposal Meeting | Hanes 334 | Oct. 01 / Oct. 03 (3:30PM-4:45PM)|
-| P2  | Presentation Slides |Canvas| Nov. 20 / Nov. 25 (11:59PM)|
-|   | Final Presentation|Class| Nov. 21 / Nov. 26 (3:30PM-4:45PM)|
-| P3  | Final Report|Canvas|Dec. 04 (11:59PM)|
-| P4  | Peer Scoring|[Google Survey]()|Dec. 04 (11:59PM)|
+| P1  | Project Proposal | Canvas | Feb. 16 (11:59PM)|
+|   | Proposal Meeting | Hanes 334 | Feb. 18 / Feb. 20 (9:30AM-10:45AM)|
+| P2  | Presentation Slides |Canvas| Before the Presentation Day|
+|   | Final Presentation|Class| Last 3 Lectures)|
+| P3  | Final Report|Canvas|Apr. 27 (11:59PM)|
+| P4  | Peer Scoring|[Google Survey]()|Apr. 27 (11:59PM)|
 
 # **Paper Presentation**
 
@@ -193,9 +194,10 @@ Check the **[paper list]()** for paper presentation opportunity.
 
 # **Reading**
 
-- **[Deep Learning](https://www.deeplearningbook.org/)**, by Ian Goodfellow, Yoshua Bengio, Aaron Courville. 
-- **[Deep learning theory lecture note](https://mjt.cs.illinois.edu/dlt/)**, by Matus Telgarsky.
+- **[An Introduction to Statistical Learning](https://www.statlearning.com/)**, by Gareth James, Daniela Witten, Trevor Hastie, and Robert Tibshirani. 
+- **[Elements of Statistical Learning](https://hastie.su.domains/ElemStatLearn/)**, by Trevor Hastie, Robert Tibshirani, and Jerome Friedman.
 - **[Foundations of machine learning](https://cs.nyu.edu/~mohri/mlbook/)**, by Mehryar Mohri, Afshin Rostamizadeh, and Ameet Talwalkar.
-- **[Convex optimization](https://stanford.edu/~boyd/cvxbook/bv_cvxbook.pdf)**, by Stephen Boyd, and Lieven Vandenberghe.
+- **[Deep Learning](https://www.deeplearningbook.org/)**, by Ian Goodfellow, Yoshua Bengio, Aaron Courville. 
+
 
 This page was last updated on `r Sys.time()` Eastern Time.
