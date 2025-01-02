@@ -70,7 +70,8 @@ See the **[syllabus](Syllabi/565_Syllabus.pdf)** for details. Machine learning h
 2. Linear Models (Linear Regression; Logistic Regression; SVM)
 3. Non-linear Models (Tree-based Methods; Kernel SVM; Neural Networks)
 4. Clustering Methods
-5. Advanced topics
+5. Matrix Factorization
+6. Advanced topics
 
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
@@ -89,7 +90,7 @@ See the **[syllabus](Syllabi/565_Syllabus.pdf)** for details. Machine learning h
 
 | Date | Lecture | Slides | Tutorial|
 |------|-----------------------|-------:|----------:|
-|Jan. 09| Welcome || |
+|Jan. 09| Welcome |[Slides]()|[Tutorial 1](https://drive.google.com/file/d/1viFR80Iv3JdXyRrt2VoVUJPYYqRIpA42/view?usp=sharing) |
 |Jan. 14| Overview || |
 |Jan. 16| Review || |
 |Jan. 21| Linear Regression  || |
@@ -146,7 +147,7 @@ This course includes a final project in lieu of a final exam. Projects will be c
 
 ## Group List
 
-Please form the final project group before **Jan 22nd**, and sign up using the shared **[spreadsheet]()**. Please don't modify the information of other groups.
+Please form the final project group before **Jan 22nd**, and sign up using the shared **[spreadsheet](https://docs.google.com/spreadsheets/d/1T_rsnt5cD0X_QC9QEMgYZbeVX9WT1WY71MeNs9jKF6I/edit?usp=sharing)**. Please don't modify the information of other groups.
 
 ## Four Parts Including Point Values
 
@@ -174,7 +175,7 @@ See latex template at [link](https://drive.google.com/file/d/16uQ-fbVysshhh13xvn
 
 **P4: Peer Score** *(10 Points):* Ten points of the final project is based on an average score measuring overall contribution as seen by you and the other members of your group. Each group member should score every person in their group on a continuous scale from 0 (Bad) to 10 (Good). Before the due date of the final paper, every member is required to submit the group scoring through the google survey link below. Your name and this information will remain private between me and you. If you fail to submit this group scoring before the deadline, 2 points penalty will be applied and I will give the other members a score of 10.
 
-- [Peer Scoring]()
+- [Peer Scoring](https://forms.gle/37W7kicacTGgTBEK9)
 
     
 ## Due Dates of Individual Parts
@@ -184,13 +185,13 @@ See latex template at [link](https://drive.google.com/file/d/16uQ-fbVysshhh13xvn
 | P1  | Project Proposal | Canvas | Feb. 16 (11:59PM)|
 |   | Proposal Meeting | Hanes 334 | Feb. 18 / Feb. 20 (9:30AM-10:45AM)|
 | P2  | Presentation Slides |Canvas| Before the Presentation Day|
-|   | Final Presentation|Class| Last 3 Lectures)|
+|   | Final Presentation|Class| Last 3 Lectures|
 | P3  | Final Report|Canvas|Apr. 27 (11:59PM)|
 | P4  | Peer Scoring|[Google Survey]()|Apr. 27 (11:59PM)|
 
 # **Paper Presentation**
 
-Check the **[paper list]()** for paper presentation opportunity.
+Check the **[paper list](https://docs.google.com/spreadsheets/d/1_ysOszh_k5-kOKs0iwn8OWYU_yE9st4GZvBk2uVE1hs/edit?usp=sharing)** for paper presentation opportunity.
 
 # **Reading**
 
