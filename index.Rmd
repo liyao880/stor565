@@ -75,7 +75,7 @@ See the **[syllabus](Syllabi/565_Syllabus.pdf)** for details. Machine learning h
 
 - Instructor: **[Yao Li](https://liyao880.github.io/yaoli/)**
 
-- Teaching Assistant: **[Shaleni Kovach](https://stor.unc.edu/people/graduate-students/)**
+- Teaching Assistant: **[Shaleni Kovach](https://stor.unc.edu/people/graduate-students/)** (shaleni@email.unc.edu)
 
 - Grader: TBA
     
@@ -83,14 +83,14 @@ See the **[syllabus](Syllabi/565_Syllabus.pdf)** for details. Machine learning h
     
 - Office Hours:
     - Instructor Office Hours: W 2:00 - 3:00PM, Hanes 334
-    - TA Office Hours: TBA, TBA
+    - TA Office Hours: M 2:00 - 3:00PM, Hanes B5; F 10:00 - 11:00AM, [Zoom](https://unc.zoom.us/j/93257575122?pwd=LywvTesMTaVqsTa4jup4oFuLLQAc6j.1)
 
 
 # **Course Material**
 
 | Date | Lecture | Slides | Tutorial|
 |------|-----------------------|-------:|----------:|
-|Jan. 09| Welcome |[Slides]()|[Tutorial 1](https://drive.google.com/file/d/1viFR80Iv3JdXyRrt2VoVUJPYYqRIpA42/view?usp=sharing) |
+|Jan. 09| Welcome |[Slides](Lecture/Lecture_01_Course_Logistics.pdf)|[Tutorial 1](https://drive.google.com/file/d/1viFR80Iv3JdXyRrt2VoVUJPYYqRIpA42/view?usp=sharing) |
 |Jan. 14| Overview || |
 |Jan. 16| Review || |
 |Jan. 21| Linear Regression  || |
