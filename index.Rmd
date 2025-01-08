@@ -129,7 +129,7 @@ All homework assignments are to be submitted via **[Canvas](https://edtech.unc.e
 
 | Date assigned | Instructions | Due Date (Time) |
 |----------|:--------:|:-------------:|
-|   | [HW1]()([.ipynb]())  |   (11:59 PM) |
+| Jan.09 | [HW1](https://drive.google.com/file/d/1F5CxMbhek9dYOAzNFmzMpxOZmrPrudcp/view?usp=sharing)([.ipynb](https://colab.research.google.com/drive/1VNUBQzZ2sF_DvuwS4U1CkvrP_FDENymY?usp=drive_link))  |  Jan.26 (11:59 PM) |
 |   | [HW2]()([.ipynb]()) |   (11:59 PM) |
 |  | [HW3]()([.ipynb]())  |  (11:59 PM) |
 |   | [HW4]()([.ipynb]())  |   (11:59 PM) |
