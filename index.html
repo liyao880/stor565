@@ -148,8 +148,8 @@ Kovach</a></strong> (<a href="mailto:shaleni@email.unc.edu" class="email">shalen
 <tr class="odd">
 <td>Jan. 09</td>
 <td>Welcome</td>
-<td align="right"><a href="Lecture/Lecture_01_Course_Logistics.pdf">Slides</a></td>
-<td align="right"><a href="https://drive.google.com/file/d/1viFR80Iv3JdXyRrt2VoVUJPYYqRIpA42/view?usp=sharing">Tutorial
+<td align="right"><a href="#" class="protected-link" data-url="https://drive.google.com/file/d/170ITsODn-O3xxK4pcVVyFWFdUKxBRFGb/view?usp=sharing">Slides</a></td>
+<td align="right"><a href="#" class="protected-link" data-url="https://drive.google.com/file/d/1viFR80Iv3JdXyRrt2VoVUJPYYqRIpA42/view?usp=sharing">Tutorial
 1</a></td>
 </tr>
 <tr class="even">
@@ -355,7 +355,7 @@ homework will receive a grade of <strong>0</strong>.</p>
 <tbody>
 <tr class="odd">
 <td>Jan.09</td>
-<td align="center"><a href="https://drive.google.com/file/d/1F5CxMbhek9dYOAzNFmzMpxOZmrPrudcp/view?usp=sharing">HW1</a>(<a href="https://colab.research.google.com/drive/1VNUBQzZ2sF_DvuwS4U1CkvrP_FDENymY?usp=drive_link">.ipynb</a>)</td>
+<td align="center"><a href="#" class="protected-link" data-url="https://drive.google.com/file/d/1F5CxMbhek9dYOAzNFmzMpxOZmrPrudcp/view?usp=sharing">HW1</a>(<a href="#" class="protected-link" data-url="https://colab.research.google.com/drive/1VNUBQzZ2sF_DvuwS4U1CkvrP_FDENymY?usp=drive_link">.ipynb</a>)</td>
 <td align="center">Jan.26 (11:59 PM)</td>
 </tr>
 <tr class="even">
@@ -523,8 +523,26 @@ and Ameet Talwalkar.</li>
 Learning</a></strong>, by Ian Goodfellow, Yoshua Bengio, Aaron
 Courville.</li>
 </ul>
-<p>This page was last updated on 2025-01-08 10:44:35.973091 Eastern
+<p>This page was last updated on 2025-01-08 13:10:30.26115 Eastern
 Time.</p>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    const correctPassword = "stor2025hanes334"; // Set your password here
+    const links = document.getElementsByClassName("protected-link");
+
+    for (let i = 0; i < links.length; i++) {
+      links[i].addEventListener("click", function(event) {
+        event.preventDefault(); // Prevent the default action of the link
+        const userPassword = prompt("Enter the password to access this link:");
+        if (userPassword === correctPassword) {
+          window.open(this.getAttribute("data-url"), "_blank"); // Open the link in a new tab
+        } else {
+          alert("Incorrect password. Access denied.");
+        }
+      });
+    }
+  });
+</script>
 </div>
 </div>
 </div>
